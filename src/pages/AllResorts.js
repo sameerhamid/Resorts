@@ -7,6 +7,7 @@ const AllResorts = () => {
     const { dataDownloaded, loading, error } = useFetch(`https://sam-resots-default-rtdb.firebaseio.com/resorts.json`);
     return (
         <div>
+            <h2 className={classes.rosort__heading}>ALL RESORTS</h2>
             {loading && <h2>Loading...</h2>}
             {error && <h2>{error}</h2>}
             <TouristReosortList resortList={dataDownloaded && dataDownloaded} />

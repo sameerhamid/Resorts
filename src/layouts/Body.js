@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import AllResorts from '../pages/AllResorts'
 import AddResort from '../pages/AddResort'
 import FavResorts from '../pages/FavResorts'
+
 const Body = () => {
     return (
         <div className={classes.body__container}>
