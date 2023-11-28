@@ -1,0 +1,24 @@
+.body__container {
+  position: relative;
+  top: 6rem;
+  width: 50%;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+@media only screen and (max-width: 1200px) {
+  .body__container {
+    top: 6rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .body__container {
+    top: 8rem;
+    width: 76%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .body__container {
+    top: 12rem;
+    width: 86%;
+  }
+}
